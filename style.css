@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgba(245, 230, 203, 0.336);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+.headerblog{
+    background: linear-gradient(teal,rgb(0, 68, 68));
+    color: white;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.lhead{
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 2px 3px rgb(82, 82, 82);
+}
+
+.mhmenu ul{
+    list-style: none;
+    display: flex;
+}
+
+.mhmenu ul a{
+    margin-right: 30px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .5s;
+}
+
+.mhmenu ul a:hover{
+    border-bottom: 1px solid rgb(221, 221, 221);
+    color: bisque;
+}
+
+.mhemenu{
+    display: none;
+}
+
+#navmenu{
+    width: 360px;
+    height: 90vh;
+    position: absolute;
+    left: 52%;
+    background: teal;
+    padding: 15px;
+    display: none;
+}
+
+#navmenu ul li{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#navmenu ul li:hover{
+    background-color: teal;
+    box-shadow: 2px 3px 4px 1px rgb(27, 27, 27);
+}
+.mhemenu a{
+    color: white;
+}
+
+#closea{
+    display: none;
+}
+
+.bodySec{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cols1{
+    width: 70%;
+}
+
+.postal{
+    background: rgb(236, 255, 250);
+    box-shadow: 1px 3px 4px rgb(109, 109, 109);
+}
+
+.pstTitle{
+    background: teal;
+    padding: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fullpost{
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(56, 56, 56);
+    font-size: 14px;
+}
+
+.fullpost p{
+    margin-top: 20px;
+    user-select: none;
+}
+
+.cols2{
+    margin-left: 10px;
+    width: 30%;
+}
+
+.noticelist{
+    margin-top: 50px;
+}
+
+.noticelist h2{
+    background: teal;
+    color: rgb(252, 252, 252);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.spost{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    background: rgb(236, 236, 236);
+    border-bottom: 1px solid rgb(156, 156, 156);
+}
+
+.sthumb{
+    width: 120px;
+    height: 60px;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.sthumb img{
+    width: 100%;
+    height: 100%;
+}
+.stitle{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .headerblog{
+        background: linear-gradient(rgb(0, 185, 185),rgb(0, 68, 68));
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .mhmenu{
+        display: none;
+    }
+
+    .lhead{
+        width: auto;
+    }
+
+    .mhemenu{
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .bodySec{
+        display: block;
+    }
+
+    .cols1{
+        width: 100%;
+    }
+
+    .cols2{
+        width: 80%;
+    }
+
+}
